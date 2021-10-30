@@ -1,0 +1,74 @@
+.kalorie_container{
+width: 100%;
+.kalorie{
+    display: flex;
+    justify-content: space-between;
+    p{
+        text-align: center;
+    }
+
+}
+
+}
+.REMOVE_sirt{
+    height: 100vh;
+}
+.makro_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .makro_header{
+        font-size: 4rem;
+}
+
+    .makro{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 50vh;
+        div{
+            width: 25%;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #CCE5B6;
+            border: 3px solid #6DB52C;
+            border-radius: 30px;
+            h2{
+                color: #F49817;
+                font-size: 3.5rem;
+                margin-top: 0;
+            }
+            p{
+                text-align: center;
+            }
+            p:nth-child(2){
+                font-size: 1.4rem;
+                font-weight: 1000;
+            }
+        }
+
+    }
+}
+.inne_header{
+    font-size: 7rem;
+}
+@media(max-width:768px){
+    .inne_header{
+        font-size: 5rem;
+    }
+    .makro_container{
+     .makro{
+        height: 160vh;
+        flex-direction: column;
+        div{
+        width: 60%;
+    }
+    }
+}
+}
